@@ -1,0 +1,108 @@
+:root {
+    --bg-color: #fcfafc;
+    --button-color: #ef91ef;
+    --font-color: #05004E;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Poppins", sans-serif;
+    --default-font-family: 'Source Sans Pro', sans-serif;
+}
+.hero{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    padding: 120px 0px 0px 0px;
+    text-align: center;
+}
+.hero h1{
+    font-family: var(--heading-font-family);
+    font-size: 90px;
+}
+.hero h2{
+    font-family: var(--heading-font-family);
+    font-size: 50px;
+}
+.hero h3{
+    font-family: var(--heading-font-family);
+    font-size: 50px;
+}
+.button{
+    padding: 50px 30px;
+}
+.btn-contact {
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--button-color);
+    color: white;
+    font-size: 20px;
+}
+.btn-contact:hover{
+    background-color: #e98be9;
+    color: #ffffff;
+}
+.about-me{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    padding: 120px 200px 60px 90px;
+    text-align: center;
+}
+.about-me h1{
+    font-family: var(--heading-font-family);
+    font-size: 70px;
+}
+.about-me h2{
+    font-family: var(--heading-font-family);
+    font-size: 25px;
+    margin: 10px 0 20px 0;
+}
+.about-me h3{
+    font-family: var(--heading-font-family);
+    font-size: 20px;
+}
+.about-me p{
+    margin: 20px 0 50px 0;
+}
+.btn-projects {
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--button-color);
+    color: white;
+    font-size: 20px;
+}
+.btn-projects:hover{
+    background-color: #e98be9;
+    color: #ffffff;
+}
+.projects{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    padding: 120px 90px 60px 90px;
+    text-align: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.social-links a {
+    margin: 0 20px;
+    color: var(--button-color);
+    background: var(--bg-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: all 100ms ease-in-out;
+  }
+  
+.social-links a:hover {
+    color: #e98be9;
+    background: var(--bg-color);
+  }
+  /* contact */
+  .content-contact{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    padding: 120px 100px 150px 80px;
+    text-align: center;
+  }
