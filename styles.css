@@ -106,3 +106,17 @@
     padding: 120px 100px 150px 80px;
     text-align: center;
   }
+  @media (max-width: 900px) {
+    .content {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }    
+}
+@media (max-width: 700px) {
+    .content {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }    
+}
